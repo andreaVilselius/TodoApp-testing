@@ -7,16 +7,23 @@
     "dev": "vite",
     "server": "json-server db.json --port 3001",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "test": "vitest",
+    "test:run": "vitest run"
   },
   "dependencies": {
     "react": "19.2.8",
     "react-dom": "19.2.8"
   },
   "devDependencies": {
+    "@testing-library/jest-dom": "^7.0.1",
+    "@testing-library/react": "^16.3.3",
+    "@testing-library/user-event": "^14.6.7",
     "@vitejs/plugin-react": "6.0.5",
+    "jsdom": "^27.0.1",
     "json-server": "1.0.0-beta.15",
-    "vite": "8.2.0"
+    "vite": "8.2.0",
+    "vitest": "^5.0.0"
   },
   "engines": {
     "node": ">=24"
