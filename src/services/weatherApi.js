@@ -1,6 +1,3 @@
-/*export const WEATHER_URL =
-  "https://api.open-meteo.com/v1/forecast?latitude=59.3293&longitude=18.0686&current=temperature_2m,weather_code&timezone=Europe%2FStockholm";
-*/
 export const API_ENDPOINT = "https://api.open-meteo.com/v1/forecast";
 export const WEATHER_URL = `${API_ENDPOINT}?latitude=59.3293&longitude=18.0686&current=temperature_2m,weather_code&temperature_unit=celsius&timezone=Europe%2FStockholm`;
 export const getStockholmWeather = async () => {
